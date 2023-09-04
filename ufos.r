@@ -3,7 +3,7 @@ library(ggplot2)
 
 # Reading file as a data frame
 
-ufos <- read.delim("C:\\Users\\gowda\\Downloads\\ufo_awesome.tsv", sep='\t', stringsAsFactors=FALSE, header=FALSE, na.strings="")
+ufos <- read.delim("ufo_awesome.tsv", sep='\t', stringsAsFactors=FALSE, header=FALSE, na.strings="")
 
 # We can have a look at the data with head function
 head(ufos)
